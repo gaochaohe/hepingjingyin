@@ -1,0 +1,125 @@
+body{
+	background: #000;
+}
+.container{
+	max-width: 1366px;height: 750px;
+	padding-top: 700px;
+}
+.main{
+	width: 1070px;height: 510px;
+	margin:0 auto ;
+}
+.main p{
+	text-align: center;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.main p a{
+	color: #fff;
+}
+.main .redemption_box{
+	width: 1070px;height: 438px;
+	padding-top: 50px;
+}
+.main .redemption_box .Select_box{
+	width: 515px;height: 400px;
+	margin-left: 390px;
+}
+.main .redemption_box .Select_box .Select_box_01{
+	width: 505px;height: 50px;
+	padding-left: 10px;
+	text-align: left;
+}
+.main .redemption_box .Select_box .Select_box_01 select{
+	width: 505px;height: 50px;
+	background: transparent;
+	appearance: none;
+	border:none;
+	font-size: 20px;
+	color: #fff;
+}
+.main .redemption_box .Select_box .Select_box_01 select option{
+	background: #baf5e9;
+}
+
+.main .redemption_box .Select_box .Select_box_02{
+	width: 505px;height: 50px;
+	margin-top: 22px;
+	padding-left: 10px;
+}
+.main .redemption_box .Select_box .Select_box_02 select{
+	width: 237px;height: 50px;
+	background: transparent; /*背景透明*/
+	-webkit-appearance: none;/*去三角*/
+	border:none;
+	font-size: 20px;
+	color: #fff;
+}
+.main .redemption_box .Select_box .Select_box_02 .select_01{
+	margin-left: 26px;
+}
+.main .redemption_box form{
+	width: 515px;height: 130px;
+	margin-top: 22px;
+}
+.main .redemption_box form input{
+	width: 515px;height: 50px;
+	background: transparent;
+	border: none;
+}
+.main .redemption_box form .verify{
+	width: 235px;height: 50px;
+	margin-top: 26px;
+}
+.main .redemption_box form .subimt{
+	width: 240px;height: 75px;
+	margin-top: 26px;
+	background: url(../images/dui_btn.png)no-repeat;
+}
+footer{
+	max-width: 1366px;height: 200px;
+	background: #000;
+	overflow: hidden;
+}
+footer .foot_05{
+	width: 470px;height: 150px;
+	padding: 50px 0px 0px 50px;
+	float: left;
+	overflow: hidden;
+}
+footer .foot_05 a{
+	display: block;
+	float: left;
+	width: 170px;height: 47px;
+	margin: 0px 30px 10px;
+}
+footer .foot_05 p{
+	width: 366px;
+	color: #fff;
+	margin-left: 20px;
+	font-size: 14px;
+	clear: both;
+}
+footer .foot_06{
+	width: 708px;height: 150px;
+	float: left;
+	padding-top: 50px;
+}
+footer .foot_06 nav a{
+	color:#fff;
+	font-size: 14px;
+}
+footer .foot_06 nav a:hover{
+	color:#ff0000;
+}
+footer .foot_06 nav a:hover span{
+	color:#fff;
+}
+footer .foot_06 p{
+	color:#fff;
+	line-height: 20px;
+}
+footer .foot_06 p a{
+	color:#fff;
+}
+

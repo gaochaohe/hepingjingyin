@@ -1,0 +1,218 @@
+.container{
+	max-width: 1366px;
+	background: #ccc;
+	margin: 0 auto;
+}
+header{
+	width: 100%;height:135px;
+	position: fixed;
+	overflow: hidden;
+	z-index: 1;
+}
+header .logo{
+	width: 390px;height: 135px;
+	background: url(../images/logo_200.png) no-repeat 10px 3px; 
+	background-size: 115px 120px;
+	margin-left: 128px;
+	overflow: hidden;
+	float: left;
+} 
+header .logo a{
+	display: block;
+	width: 140px;height: 135px;
+	float: left;
+	margin-top: 1px;
+} 
+header .logo>div{
+	width:235px;height: 105px;
+	float: left;
+	padding-top: 30px;
+	margin-left:15px;
+} 
+header .logo div h1{
+	color: #ffb400;
+	font-size: 24px;
+} 
+header .logo div p{
+	color: #fff;
+	font-size: 14px;
+	line-height: 20px;
+} 
+header nav{
+	width: 790px;height: 135px;
+	float: left;
+	overflow: hidden;
+}
+header nav a{
+	display: block;
+	padding: 42px 29px;
+	float: left;
+	color: #fff;
+}
+header nav a:hover{
+	background: url(../images/spr_icon.png)no-repeat 0px -42px;
+}
+/*头部导航*/
+.banner{
+	width: 100%;height: 612px;
+}
+
+.main{
+	width: 100%;height:1040px;
+}
+.main .center{
+	width: 1200px;height: 75px;
+	margin: 0 auto;
+	padding-top: 25px;
+	overflow: hidden;
+}
+.main .center h2{
+	width: 100px;height: 30px;
+	color: #000;
+	font-size: 24px;
+	font-weight: 900;
+	float: left;
+}
+.main .center p{
+	width: 1100px;height: 30px;
+	float: left;
+	text-align: right;
+}
+.main .center p a{
+	color: #ffae00;
+}
+.main .center_02{
+	width: 1200px;height: 845px;
+	margin:  0 auto;
+	background:#fff;
+}
+.main .center_02 nav{
+	width: 1100px;height: 70px;
+	margin:  0 auto;
+	background:#fff;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+.main .center_02 nav a{
+	display: block;
+	width: 95px;height: 68px;
+	text-align: center;
+	line-height: 68px;
+	font-weight: 900;
+	color: #000;
+	float: left;
+	transition:all 1s;
+}
+.main .center_02 nav a:hover{
+	color: #ffae00;
+	border-bottom: 2px solid #ffae00;
+	margin: 0 20px;
+}
+.main .center_02 ul{
+	width: 1100px;
+	margin: 40px auto ;
+}
+.main .center_02 ul li{
+	width: 100%;height: 40px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.main .center_02 ul li span{
+	float: right;
+}
+.main .center_02 ul li a{
+	color: #999;
+}
+.main .center_02 ul li a:hover{
+	color: #ffae00;
+}
+.main .center_02 p .xiaye{
+	display: block;
+	width: 100px;height: 30px;
+	background:#ffae00;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	margin: 0 auto;
+}
+/*以上是内容部分*/
+
+/*以下是页脚部分*/
+.foot{
+	width: 100%;height: 760px;
+	padding-top: 70px;
+	overflow: hidden;
+}
+.foot .foot_01,.foot .foot_02,.foot .foot_03,.foot .foot_04{
+	width: 250px;height: 275px;
+	padding-top: 5px;
+	background: #191c27;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-left: 100px;
+	float: left;
+}
+.foot .foot_01 p,.foot .foot_02 p,.foot .foot_03 p,.foot .foot_04 p{
+	margin-top: 25px;
+	color: #fff;
+}
+.foot .foot_02{
+  	margin-left: 600px;
+}
+.foot .foot_03{
+	margin-top: 70px;
+}
+.foot .foot_04{
+	margin-left: 600px;
+	margin-top: 75px;
+}
+
+footer{
+	max-width: 1366px;height: 200px;
+	background: #000;
+	overflow: hidden;
+}
+footer .foot_05{
+	width: 470px;height: 150px;
+	padding: 50px 0px 0px 50px;
+	float: left;
+	overflow: hidden;
+}
+footer .foot_05 a{
+	display: block;
+	float: left;
+	width: 170px;height: 47px;
+	margin: 0px 30px 10px;
+}
+footer .foot_05 p{
+	width: 366px;
+	color: #fff;
+	margin-left: 20px;
+	font-size: 14px;
+	clear: both;
+}
+footer .foot_06{
+	width: 708px;height: 150px;
+	float: left;
+	padding-top: 50px;
+}
+footer .foot_06 nav a{
+	color:#fff;
+	font-size: 14px;
+}
+footer .foot_06 nav a:hover{
+	color:#ff0000;
+}
+footer .foot_06 nav a:hover span{
+	color:#fff;
+}
+footer .foot_06 p{
+	color:#fff;
+	line-height: 20px;
+}
+footer .foot_06 p a{
+	color:#fff;
+}
+
+
+

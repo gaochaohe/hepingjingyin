@@ -1,0 +1,393 @@
+body{
+	background: #fff;
+}
+.dh{
+	width: 813px;height: 460px;
+	float: left;
+	background: #f5f5f5;
+	overflow: hidden;
+}
+i{
+	display: block;
+	float: left;
+	width: 40px;height: 50px;
+	list-style-type: none;	
+}
+h3{
+	width: 120px;height: 50px;
+	font-size: 24px;
+	float: left;
+}
+.dh nav{
+	width:630px;height: 50px;
+	float: left;
+	overflow: hidden;
+}
+.dh nav a{
+	display: block;
+	color: #000;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 5px;
+	width: 115px;
+	float: left;
+	border-right: 1px solid #919296;
+}
+.dh nav a:hover{
+	display: block;
+ 	color: #efa611;
+ 	font-weight: 900;
+}
+.dh nav .gd{
+	width: 30px;height: 30px;
+	float: right;
+	border: none;
+}
+.dh nav .gd:hover{
+	border: none;
+}
+.dh .video_01{
+	width: 813px;height: 405px;
+}
+.dh .video_02{
+	width: 370px;height: 460px;
+	float: left;
+}
+
+
+
+
+/*公共样式*/
+
+
+
+.container{
+	max-width: 1366px;height: 4000px;
+	margin: 0 auto;
+}
+header{
+	width: 100%;height:135px;
+	position: fixed;
+	overflow: hidden;
+	z-index: 1;
+}
+header .logo{
+	width: 390px;height: 135px;
+	background: url(../images/logo_200.png) no-repeat 10px 3px; 
+	background-size: 115px 120px;
+	margin-left: 128px;
+	overflow: hidden;
+	float: left;
+} 
+header .logo a{
+	display: block;
+	width: 140px;height: 135px;
+	float: left;
+	margin-top: 1px;
+} 
+header .logo>div{
+	width:235px;height: 105px;
+	float: left;
+	padding-top: 30px;
+	margin-left:15px;
+} 
+header .logo div h1{
+	color: #ffb400;
+	font-size: 24px;
+} 
+header .logo div p{
+	color: #fff;
+	font-size: 14px;
+	line-height: 20px;
+} 
+header nav{
+	width: 790px;height: 135px;
+	float: left;
+	overflow: hidden;
+}
+header nav a{
+	display: block;
+	padding: 42px 29px;
+	float: left;
+	color: #fff;
+}
+header nav a:hover{
+	background: url(../images/spr_icon.png)no-repeat 0px -42px;
+}
+.banmmer{
+	width: 100%;
+}
+.banmmer .banmmer_01{
+	width:100%;height: 650px;
+}
+.banmmer .banmmer_02{
+	width:100%;height: 650px;
+}
+.banmmer .banmmer_02 .banmmer_03{
+	width:1200px;height: 320px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_04{
+	width:590px;height: 320px;
+	float: left;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_05{
+	width: 430px;height: 320px;
+	float: left;
+	background:#fff;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_05 nav{
+	width: 430px;height: 50px;
+	background:#fff;
+	line-height: 50px;
+	overflow: hidden;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_05 nav a{
+	display: block;
+	width: 45px;height: 48px;
+	float: left;
+	margin: 0px 20px;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_05 nav a:hover{
+	color: #ffb007;
+	border-bottom: 2px solid #ffb007;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_05 nav .jia{
+	width: 30px;height: 30px;
+	background: url(../images/cont-spr.png) no-repeat -109px -90px;
+	margin: 12px 0px 12px 55px;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_05 nav .jia:hover{
+	border-bottom: none;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_05 ul li{
+	width: 410px;height: 40px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	line-height: 30px;
+	padding-left: 20px;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_05 ul .diyi{
+	height: 60px;
+	font-size: 24px;
+	color: #ffa100;
+	background: #f7f7f7;
+	line-height: 60px;
+	margin-bottom: 10px;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_05 ul li span{
+	color: #656565;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_05 ul li a{
+	color: #000;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_05 ul li a:hover{
+	color: red;
+	text-decoration: red;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_06{
+	width: 180px;height: 320px;
+	float: left;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_06 div{
+	width: 180px;height: 290px;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_06 div a{
+	width: 180px;height: 60px;
+	display: block;
+}
+.banmmer .banmmer_02 .banmmer_03 .banmmer_06 p{
+	width: 140px;height: 30px;
+	padding-left: 40px;
+	color: red;
+}
+.banmmer .banmmer_02 ol{
+	width: 1200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.banmmer .banmmer_02 ol li{
+	width: 285px;height: 179px;
+	float: left;
+	margin-right: 20px;
+	margin-top: 55px;
+	overflow: hidden;
+}
+.banmmer .banmmer_02 ol li a img{
+	transform: scale(1);
+	transition:all 1s;
+}
+.banmmer .banmmer_02 ol li:hover a img{
+	transform: scale(1.1);
+}
+.banmmer .banmmer_02 ol .l2{
+	margin-right:0;
+}
+.wanfa{
+	width: 1200px;height: 620px;
+	margin: 50px auto 0;
+	overflow: hidden;
+}
+.wanfa i{
+	display: block;
+	float: left;
+	width: 40px;height: 50px;
+	list-style-type: none;	
+}
+.wanfa h3{
+	width: 120px;height: 50px;
+	font-size: 24px;
+	float: left;
+}
+.wanfa nav{
+	width:1040px;height: 50px;
+	float: left;
+	overflow: hidden;
+}
+.wanfa nav a{
+	display: block;
+	color: #000;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 5px;
+	width: 115px;
+	float: left;
+	border-right: 1px solid #919296;
+}
+.wanfa nav a:hover{
+	color: #efa611;
+	border-right: 2px solid #919296;
+}
+.wanfa nav .tebie{
+	color: #efa611;
+	font-size: 18px;
+	font-weight: 900px;
+	border: none;
+}
+.video{
+	width: 1200px;height: 565px;
+	margin: 20px auto 0;
+	overflow: hidden;
+}
+.gonlue{
+	width: 1200px;height: 565px;
+	margin: 20px auto 0;
+	overflow: hidden;
+}
+.gonlue .gonlue_01{
+	width: 251px;height: 457px;
+	float: left;
+}
+.gonlue .gonlue_01 .tu_01{
+	width: 251px;height: 195px;
+	background: #fff;
+}
+.gonlue .gonlue_01 .tu_01 p{
+	font-size: 14px;
+	line-height: 50px;
+	text-align: center;
+}
+.gonlue .dh ul{
+	width: 538px;
+	float: left;
+}
+.gonlue .dh ul li{
+	height: 40px;width: 100%;
+	margin-left:20px;
+	line-height: 40px;
+	color: #000;
+}
+.gonlue .dh ul li a{
+	color: #000;
+}
+.gonlue .dh ul li a:hover{
+	color: #ff0000;
+	text-decoration: underline;
+}
+.yxts{
+	width: 1200px;
+	margin: 20px auto 0;
+}
+.yxts i{
+	width: 40px;height: 30px;
+}
+.foot{
+	width: 100%;height: 760px;
+	padding-top: 70px;
+	overflow: hidden;
+}
+.foot .foot_01,.foot .foot_02,.foot .foot_03,.foot .foot_04{
+	width: 250px;height: 275px;
+	padding-top: 5px;
+	background: #191c27;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-left: 100px;
+	float: left;
+}
+.foot .foot_01 p,.foot .foot_02 p,.foot .foot_03 p,.foot .foot_04 p{
+	margin-top: 25px;
+	color: #fff;
+}
+.foot .foot_02{
+  	margin-left: 600px;
+}
+.foot .foot_03{
+	margin-top: 70px;
+}
+.foot .foot_04{
+	margin-left: 600px;
+	margin-top: 75px;
+}
+footer{
+	max-width: 1366px;height: 200px;
+	background: #000;
+	overflow: hidden;
+}
+footer .foot_05{
+	width: 470px;height: 150px;
+	padding: 50px 0px 0px 50px;
+	float: left;
+	overflow: hidden;
+}
+footer .foot_05 a{
+	display: block;
+	float: left;
+	width: 170px;height: 47px;
+	margin: 0px 30px 10px;
+}
+footer .foot_05 p{
+	width: 366px;
+	color: #fff;
+	margin-left: 20px;
+	font-size: 14px;
+	clear: both;
+}
+footer .foot_06{
+	width: 708px;height: 150px;
+	float: left;
+	padding-top: 50px;
+}
+footer .foot_06 nav a{
+	color:#fff;
+	font-size: 14px;
+}
+footer .foot_06 nav a:hover{
+	color:#ff0000;
+}
+footer .foot_06 nav a:hover span{
+	color:#fff;
+}
+footer .foot_06 p{
+	color:#fff;
+	line-height: 20px;
+}
+footer .foot_06 p a{
+	color:#fff;
+}
+
+
+
+
